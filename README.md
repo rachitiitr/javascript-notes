@@ -63,3 +63,20 @@ user1.increment();
     const userWill = new userCreator("Will", 3);
 ```
 ![alt text](image.png)
+
+
+## The this keyword
+* Javascript's way of introducing dynamic scope 
+* Controlled by how the function is called and not how the function is defined
+* Priority Order
+    * object.fn() 
+    * fn.call(thisContext, ...) or .apply
+    * fn.bind(thisArg)()
+    * `new` keyword
+        * creates new {} object
+        * links it to another object
+        * Calls function with this pointing to empty object 
+        * Returns the object if function didn't return anythin
+    * If none of above, then its a default case: `this` points to global/window
+
+![alt text](image-1.png)
