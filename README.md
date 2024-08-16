@@ -1,3 +1,11 @@
+- [Prototype Chains](#prototype-chains)
+  - [Concept](#concept)
+  - [Trick Question (this resolution)](#trick-question-this-resolution)
+  - [Trick Question (this + arrow functions)](#trick-question-this--arrow-functions)
+  - [Shortcut Syntax: new operator](#shortcut-syntax-new-operator)
+- [The this keyword](#the-this-keyword)
+  - [Arrow functions and this keyword](#arrow-functions-and-this-keyword)
+
 ## Prototype Chains
 ### Concept
 ```js
