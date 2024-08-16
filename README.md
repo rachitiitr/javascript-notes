@@ -85,3 +85,8 @@ user1.increment();
     * default to global (window)
 
 ![alt text](image-1.png)
+
+### Arrow functions and this keyword
+* Arrow fns don't create `this` binding in their execution context
+* So it goes to scope-chaining resolution mechanism to figure out what `this` means.
+![alt text](image-2.png)
